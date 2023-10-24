@@ -7,17 +7,65 @@ font-family: 'Cormorant Infant', serif;
 font-family: 'Forum', serif;
 font-family: 'Kurale', serif;
 font-family: 'Roboto Slab', serif; */
-.body {
+body {
   background-color: #add171;
 }
-.contaiener {
-  max-width: 1280px;
-  margin: 0 auto;
+img.logo {
+  float: left;
+  width: 224px;
+  height: 70px;
+  padding-top: 19px;
+  padding-left: 21px;
 }
 /* шапка */
-.header {
+header {
+  max-width: 100%;
   background: #402b1f;
+  height: 100px;
 }
-.header-nav {
+ul{
   display: flex;
+  justify-content: space-between;
 }
+/* навигация */
+  div.nav-list {
+    color: white;
+    padding-top: 25px;
+    font-family: "Cormorant Infant", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 28.8px */
+  }
+
+
+/* .nav-item {
+  color: white;
+  padding-top: 1000000px;
+} */
+
+button {
+  width: 120px;
+  height: 50px;
+  background-color: #127ebc;
+  color: white;
+  font-family: Roboto Slab;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 24px */
+}
+button:hover{
+  background-color: #419fd4;
+
+}
+/* 22: 38 23 октября конец работы ебучая кнопка и купить из за которой я мучился и 
+    по итогу сделал хуйню полную, отступ не понлый и список говна но всё работает,
+  завтра сделать хотя бы какое то выравнивание потому что моник больше чем эскиз
+    а эскиз 1280 пикселей по ширине,
+  если ничего не сломается можно будет перейти к следующему элементу,
+  на полное соответсвие с оригиналом решено забить потому что пиксели не равные
+    на деление,
+  каждому придётся задавать разное значение, с уважением дима;*/
+
+  /* обновляю фаааайл */
