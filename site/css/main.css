@@ -48,6 +48,7 @@
   width: 710px;
   height: 464px;
   margin: 60px 0 0 85px;
+  display: inline-block;
 }
 .container2 h1 {
   padding: 0px;
@@ -67,4 +68,50 @@
 .container2 ul {
   /* list-style: circle; */
   padding-left: 16px;
+}
+
+.container2 .box2 {
+  width: 284px;
+  height: 375px;
+  background: white;
+  display: inline-block;
+  position: relative;
+  margin: 0 196px 0 190px;
+}
+/* иконки детские */
+.icon1 {
+  position: absolute;
+  top: 200px;
+  right: 350px;
+  display: block;
+}
+
+.icon2 {
+  position: absolute;
+  top: 311px;
+  right: 200px;
+  display: block;
+}
+
+.icon3 {
+  position: absolute;
+  top: 432px;
+  right: 350px;
+  display: block;
+}
+/* всё тоже самое но текст к детским картиночкам */
+.container2 .h21 {
+  top: 295px;
+  right: 372px;
+  position: absolute;
+}
+.container2 .h22 {
+  position: absolute;
+  top: 406px;
+  right: 169px;
+}
+.container2 .h23 {
+  position: absolute;
+  top: 527px;
+  right: 326px;
 }
