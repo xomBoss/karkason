@@ -1,0 +1,36 @@
+.container1 {
+  background: #add171;
+  height: 720px;
+  width: 100%;
+  position: relative;
+}
+.box1 {
+  width: 708px;
+  height: 356px;
+  border-radius: 7px;
+  opacity: 0.8;
+  background: #d5f4a1;
+  margin: 88px 0 0 42px;
+  display: inline-block;
+}
+.h1box1 {
+  padding: 26px 0 30px 43px;
+}
+.h2box1 {
+  padding: 0 0 0 43px;
+}
+.but {
+  position: absolute;
+  top: 434px;
+  left: 150px;
+}
+.imagebox1 {
+  width: 293px;
+  height: 426px;
+  transform: rotate(17.174deg);
+  border-radius: 20px;
+  background: #127ebc;
+  position: absolute;
+  top: 110px;
+  right: 130px;
+}
