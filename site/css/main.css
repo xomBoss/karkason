@@ -1,10 +1,11 @@
+/* блок 1 */
 .container1 {
   background: #add171;
   height: 720px;
   width: 100%;
   position: relative;
 }
-.box1 {
+.container1 .box {
   width: 708px;
   height: 356px;
   border-radius: 7px;
@@ -13,18 +14,18 @@
   margin: 88px 0 0 42px;
   display: inline-block;
 }
-.h1box1 {
+.box h1 {
   padding: 26px 0 30px 43px;
 }
-.h2box1 {
+.box h2 {
   padding: 0 0 0 43px;
 }
-.but {
+.container1 button {
   position: absolute;
   top: 434px;
   left: 150px;
 }
-.imagebox1 {
+.container1 img {
   width: 293px;
   height: 426px;
   transform: rotate(17.174deg);
@@ -33,4 +34,37 @@
   position: absolute;
   top: 110px;
   right: 130px;
+}
+
+/* блок 2 */
+
+.container2 {
+  height: 720px;
+  width: 100%;
+  position: relative;
+}
+
+.container2 .box {
+  width: 710px;
+  height: 464px;
+  margin: 60px 0 0 85px;
+}
+.container2 h1 {
+  padding: 0px;
+}
+
+.container2 p {
+  margin: 35px 0 26px 0;
+}
+
+.container2 h3 {
+  margin: 0 0 30px 0;
+}
+
+.p2 {
+}
+
+.container2 ul {
+  /* list-style: circle; */
+  padding-left: 16px;
 }

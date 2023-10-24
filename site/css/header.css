@@ -10,7 +10,7 @@ font-family: 'Forum', serif;
 font-family: 'Kurale', serif;
 font-family: 'Roboto Slab', serif; */
 body {
-  background-color: #add171;
+  background-color: #d5f4a1;
 }
 img.logo {
   margin-right: 60px;
@@ -26,7 +26,8 @@ header {
   background: #402b1f;
   height: 100px;
 }
-ul {
+.nav-list ul {
+  list-style: none;
   display: flex;
   justify-content: space-between;
 }
