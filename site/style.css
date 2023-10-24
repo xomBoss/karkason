@@ -1,5 +1,5 @@
 /* сброс стилей, в теории можно убрать */
-@import "/reset.css";
+@import "reset.css";
 /* подключение шрифтов */
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Forum&family=Kurale&family=Roboto+Slab&display=swap");
 /* обращение к шрифтам
