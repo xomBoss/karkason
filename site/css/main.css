@@ -358,18 +358,29 @@ h3 {
 
 .container8 {
   height: 660px;
+  position: relative;
+}
+
+.container8 .box{
+  position: absolute;
+  top: 39px;
+  left: calc(50% - 555px);
 }
 .container8 h1 {
-  margin: 39px 0 0 370px;
+  margin: 39px 0 0 0px;
+  padding: 0;
+  text-align: center;
 }
 
 .container8 h2 {
-  margin: 13px 0 0 439px;
+  margin: 13px 0 39px 0px;
+  padding: 0;
+  text-align: center;
 }
 
-.karkason {
+/* .karkason {
   margin-left: 85px;
-}
+} */
 .royal-gift {
   margin-left: 30px;
 }
