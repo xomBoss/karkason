@@ -54,29 +54,29 @@
 .ln2 {
   height: 153px;
   top: 1390px;
-  left: 347px;
+  left: 300px;
   width: 12px;
 }
 
 .ln3-1 {
-  width: 289px;
+  width: 330px;
   top: 1531px;
-  left: 357px;
+  left: 300px;
   height: 12px;
 }
 .ln3-2 {
-  width: 288px;
+  width: 330px;
   top: 1531px;
   right: 633px;
   height: 12px;
   margin-right: calc(50% - 645px);
 }
 .ln3-3 {
-  width: 239px;
+  width: 57px;
   top: 1531px;
-  right: 699px;
+  right: 948px;
   height: 12px;
-  margin-right: calc(50% - 645px);
+  margin-right: calc(49% - 654px);
 }
 
 .ln4 {
@@ -139,9 +139,9 @@
   height: 12px;
 }
 .ln9-3 {
-  width: 150px;
+  width: 191px;
   top: 2768px;
-  right: 904px;
+  right: 889px;
   height: 12px;
   margin-right: calc(50% - 644px);
 }
