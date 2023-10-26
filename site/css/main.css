@@ -62,9 +62,6 @@
   margin: 0 0 30px 0;
 }
 
-.p2 {
-}
-
 .container2 ul {
   /* list-style: circle; */
   padding-left: 16px;
@@ -114,4 +111,307 @@
   position: absolute;
   top: 527px;
   right: 326px;
+}
+.container2 .tile1,
+.tile2,
+.tile3 {
+  background: #add171;
+  width: 170px;
+  height: 170px;
+  position: absolute;
+}
+
+.container2 .tile1 {
+  right: 0;
+  top: 0;
+}
+.container2 .tile2 {
+  right: 170px;
+  top: 0;
+}
+.container2 .tile3 {
+  right: 0;
+  top: 170px;
+}
+/* блок 3 */
+.container3 {
+  width: 100%;
+  height: 720px;
+}
+
+.container3 .box {
+  width: 619px;
+  height: 420px;
+  margin-right: calc(50% - 350px);
+  margin-top: 20px;
+  float: right;
+}
+
+.container3 .box1 {
+  /* width: 454px;
+  height: 82px; */
+  padding: 0;
+  padding: 45px 57px 43px 44px;
+}
+
+.container3 .box2 {
+  width: 288px;
+  height: 96px;
+  display: inline-block;
+  padding: 0px;
+  padding: 0 95px 200px 0;
+}
+
+.container3 .box3 {
+  width: 229px;
+  height: 96px;
+  padding: 0px;
+  padding: 0 65px 102px 0;
+  display: inline-block;
+}
+
+.container3 .box4 {
+  display: inline-block;
+  width: 289px;
+  height: 48px;
+  padding: 0px 0px 0px 0px;
+}
+
+.container3 .box5 {
+  display: inline-block;
+  width: 269px;
+  height: 96px;
+  padding: 0px;
+}
+/* блок4 */
+.container4 {
+  width: 100%;
+  height: 660px;
+  position: relative;
+}
+.container4 div {
+  position: absolute;
+}
+
+.container4 .box1 {
+  left: 340px;
+}
+
+.container4 .box2 {
+  width: 653px;
+  top: 115px;
+  left: 275px;
+}
+
+.container4 .box3 {
+  top: 434px;
+  right: 559px;
+}
+
+.container4 .box4 {
+  width: 665px;
+  top: 500px;
+  right: 84px;
+}
+
+/* Ход игры */
+
+.container5 {
+  width: 100%;
+  height: 1713px;
+  position: relative;
+}
+
+.container5 h1 {
+  margin-top: 7px;
+  text-align: center;
+}
+
+.container5 .box1 {
+  width: 476px;
+  position: absolute;
+  top: 123px;
+  left: 179px;
+}
+
+.container5 .box1 h2 {
+  width: 350px;
+  margin-bottom: 10px;
+}
+
+.container5 .box2 {
+  width: 474px;
+  position: absolute;
+  top: 396px;
+  right: 86px;
+}
+
+.container5 .box2 h2 {
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.container5 .box3 {
+  width: 760px;
+  position: absolute;
+  top: 707px;
+  right: 274px;
+}
+
+.container5 .box3 h2 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.container5 .box4 {
+  width: 474px;
+  height: 197px;
+  position: absolute;
+  top: 1134px;
+  left: 179px;
+}
+
+.container5 .box4 h2 {
+  margin-bottom: 14px;
+}
+
+.container5 .box5 {
+  width: 474px;
+  height: 238px;
+  position: absolute;
+  top: 1410px;
+  right: 150px;
+}
+
+.container5 .box5 h1 {
+  margin-bottom: 21px;
+  margin-top: 0px;
+}
+
+.container5 button {
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  bottom: 9px;
+  right: 465px;
+}
+
+/* Отзывы*/
+
+.container6 {
+  width: 100%;
+  height: 660px;
+  position: relative;
+}
+
+.container6 * {
+  position: absolute;
+}
+.container6 h1 {
+  top: 5px;
+  right: 375px;
+}
+.container6 h2 {
+  width: 730px;
+  top: 164px;
+  left: 275px;
+}
+
+h3 {
+  top: 500px;
+  left: 275px;
+}
+.container6 .mark1 h1 {
+  top: 177px;
+  left: 219px;
+}
+
+.container6 .mark2 h1 {
+  top: 496px;
+  left: 1035px;
+}
+
+.container7 {
+  height: 660px;
+  position: relative;
+}
+
+.container7 * {
+  position: absolute;
+}
+
+.container7 h1 {
+  top: 26px;
+  left: 655px;
+}
+
+.container7 p {
+  width: 540px;
+  top: 149px;
+  left: 659px;
+}
+
+.container7 h2 {
+  top: 478px;
+  left: 659px;
+}
+
+.container8 {
+  height: 660px;
+}
+.container8 h1 {
+  margin: 39px 0 0 370px;
+}
+
+.container8 h2 {
+  margin: 13px 0 0 439px;
+}
+
+.karkason {
+  margin-left: 85px;
+}
+.royal-gift {
+  margin-left: 30px;
+}
+
+.karkason,
+.royal-gift {
+  display: inline-block;
+  background: #a5775e;
+  border-radius: 20px;
+  width: 540px;
+  height: 368px;
+}
+
+.karkason h2,
+.royal-gift h2 {
+  margin: 30px 0 15px 65px;
+  color: white;
+}
+
+.name,
+.email,
+.phone-number {
+  width: 380px;
+  height: 45px;
+  background: white;
+  margin: 15px 0 0 65px;
+}
+
+.name {
+  margin-top: 30px;
+}
+
+.karkason button,
+.royal-gift button {
+  margin: 30px 0 0 65px;
+}
+
+footer {
+  height: 100px;
+  background: #402b1f;
+}
+
+footer h3 {
+  color: white;
 }

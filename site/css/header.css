@@ -1,17 +1,4 @@
-/* сброс стилей, в теории можно убрать */
-@import "reset.css";
-@import "main.css";
-@import "fonts.css";
-/* подключение шрифтов */
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Forum&family=Kurale&family=Roboto+Slab&display=swap");
-/* обращение к шрифтам
-font-family: 'Cormorant Infant', serif;
-font-family: 'Forum', serif;
-font-family: 'Kurale', serif;
-font-family: 'Roboto Slab', serif; */
-body {
-  background-color: #d5f4a1;
-}
+
 img.logo {
   margin-right: 60px;
   float: left;
@@ -30,6 +17,9 @@ header {
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+header h3{
+  color: white;
 }
 /* навигация */
 div.nav-list {
