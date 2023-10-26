@@ -304,31 +304,44 @@
   position: relative;
 }
 
-.container6 * {
-  position: absolute;
-}
 .container6 h1 {
   top: 5px;
   right: 375px;
+  padding: 0;
+  position: absolute;
+
 }
-.container6 h2 {
-  width: 730px;
+
+.container6 .box{
+  position: absolute;
+  right: calc(50% - 421px);
   top: 164px;
-  left: 275px;
+  width: 842px;
 }
 
-h3 {
-  top: 500px;
-  left: 275px;
-}
-.container6 .mark1 h1 {
-  top: 177px;
-  left: 219px;
+.container6 .box h2{
+  padding: 0 30px;
+
 }
 
-.container6 .mark2 h1 {
-  top: 496px;
-  left: 1035px;
+.container6 .box h3{
+  margin: 48px 0 0 30px;
+}
+
+.container6 .mark1{
+    position: static;
+    padding: 0;
+    float: left;
+    top: 0;
+    left: 0;
+}
+
+.container6 .mark2{
+  position: static;
+  float: right;
+  padding: 44px 0px 0 0;
+  top: 0;
+  left: 0;
 }
 
 .container7 {
@@ -358,18 +371,31 @@ h3 {
 
 .container8 {
   height: 660px;
+  position: relative;
 }
+
+.container8 .box{
+  position: absolute;
+  left: calc(50% - 555px);
+  top: 39px;
+}
+
 .container8 h1 {
-  margin: 39px 0 0 370px;
+  /* margin-top: 39px; */
+  text-align: center;
+  padding: 0;
 }
 
 .container8 h2 {
-  margin: 13px 0 0 439px;
+  margin: 13px 0 39px 0;
+  text-align: center;
+  padding: 0;
+
 }
 
-.karkason {
+/* .karkason {
   margin-left: 85px;
-}
+} */
 .royal-gift {
   margin-left: 30px;
 }
@@ -385,6 +411,8 @@ h3 {
 
 .karkason h2,
 .royal-gift h2 {
+  padding: 0;
+  text-align: left;
   margin: 30px 0 15px 65px;
   color: white;
 }

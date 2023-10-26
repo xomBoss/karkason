@@ -18,7 +18,7 @@ header {
   display: flex;
   justify-content: space-between;
 }
-header h3{
+header a h3 {
   color: white;
 }
 /* навигация */
